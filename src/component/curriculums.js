@@ -1,7 +1,7 @@
 
 export default function Curriculums() {
   return (
-    <div className="mt-60 mb-32">
+    <div className="md:mt-60 mt-20 mb-32">
       <h1 className="md:text-6xl text-3xl font-semibold text-[#091A2D] text-center">Coding  Masterclass </h1>
       <h1 className="md:text-6xl text-3xl font-bold text-center text-[#F8D958] font-light dancing-script mt-1">Curriculum</h1>
       <p className="text-[#091A2D] leading-snug md:text-xl text-[15px] md:px-0 px-8 mt-5 text-center">Whether you’re new to coding or looking to enhance your skills, this<br /> session is perfect for you. Here’s what you can expect:</p>
