@@ -4,7 +4,9 @@ import Students from "./component/students"
 import Curriculum from "./component/curriculums"
 import Benefits from "./component/benefits"
 import CodingBenefits from "./component/codingBenefits"
-
+import Team from "./component/team"
+import Network from "./component/network"
+import Contact from "./component/contact"
 export default function App() {
   return (
 <div>
@@ -15,7 +17,9 @@ export default function App() {
   <Benefits/>
   <CodingBenefits/>
   <Students title={"VOICE OF TRUST AND LOVE"} color={"bg"} textColor={"text-white"} boxbg={"bg-white"} text={"text-[#091A2D]"}/>
-
+<Team/>
+<Network/>
+<Contact/>
 </div>
   )
 }
