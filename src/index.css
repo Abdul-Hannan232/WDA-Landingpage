@@ -20,4 +20,8 @@
     font-weight: 400;
     font-style: normal;
   }
+  .background{
+    background: linear-gradient(180deg, #0C2949 0%, #051425 81.5%);
+
+  }
 }
