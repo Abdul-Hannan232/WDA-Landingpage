@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer {
+  .bg{
+    background: radial-gradient(85.07% 167.25% at 92.53% 11.1%, #0C2949 0%, #07111C 50%, #051425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  }
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
