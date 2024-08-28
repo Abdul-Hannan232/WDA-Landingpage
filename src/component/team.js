@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Team() {
     return (
-        <div>
-            <h1 className='text-[#0C2949] font-bold text-5xl py-20 text-center'>Meet our team</h1>
-            <div className='flex items-center justify-center gap-10'>
-                <div className={`teamBg w-80 relative top-0  rounded-[30px] p-6 text-center`}>
+        <div className='md:mx-0 mx-5'>
+            <h1 className='text-[#0C2949] font-bold text-5xl  py-20 text-center'>Meet our team</h1>
+            <div className='flex flex-wrap items-center justify-center gap-10'>
+                <div className={`teamBg w-80 relative top-0 md:mt-0 mt-10  rounded-[30px] p-6 text-center`}>
                     <img src="./student2.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
                     <h1 className={`text-2xl mt-20 text-[#091A2D] font-bold  `}>Mohamed Yazid</h1>
                     <p className='text-[#091A2D] text-md font-bold text-center '>Instructor</p>
@@ -22,7 +22,7 @@ export default function Team() {
                         Competitive Programming</p>
                     <a href="#" className='text-[#436DAB] text-lg underline  text-center'>Linkedin Profile</a>
                 </div>
-                <div className={`teamBg w-80 relative top-0  rounded-[30px] p-6 text-center`}>
+                <div className={`teamBg w-80 relative top-0 md:mt-0 mt-10  rounded-[30px] p-6 text-center`}>
                     <img src="./student2.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
                     <h1 className={`text-2xl mt-20 text-[#091A2D] font-bold  `}>Mohamed Yazid</h1>
                     <p className='text-[#091A2D] text-md font-bold text-center '>Instructor</p>
@@ -39,7 +39,7 @@ export default function Team() {
                         Competitive Programming</p>
                     <a href="#" className='text-[#436DAB] text-lg underline  text-center'>Linkedin Profile</a>
                 </div>
-                <div className={`teamBg w-80 relative top-0  rounded-[30px] p-6 text-center`}>
+                <div className={`teamBg w-80 relative top-0 md:mt-0 mt-10  rounded-[30px] p-6 text-center`}>
                     <img src="./student2.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
                     <h1 className={`text-2xl mt-20 text-[#091A2D] font-bold  `}>Mohamed Yazid</h1>
                     <p className='text-[#091A2D] text-md font-bold text-center '>Instructor</p>
