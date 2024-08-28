@@ -1,7 +1,8 @@
 
 export default function Header() {
     return (
-        <div className="w-full md:p-10 p-5 bg md:flex items-center justify-between">
+        <>
+        <div className="w-full md:p-10 md:pb-40 p-5 pb-20 bg md:flex  justify-between">
             <div className="md:w-[50%]">
                 <h1 className="text-[#F8D958] lg:text-[90px] md:text-[40px] text-[35px] leading-none tracking-wider md:text-start text-center 	anton-regular ">BEGINNER CODING
                     MASTERCLASS</h1>
@@ -62,6 +63,11 @@ export default function Header() {
 
             </div>
         </div>
+        <div className="bg-[#F8D958] md:py-28 py-20">
+            <h1 className="md:text-5xl text-2xl anton-regular text-center">Job Bootcamp brochure</h1>          
+            <button className='mx-auto bg-[#0B2642] md:mt-5 mt-3 flex justify-center md:p-3 p-2 text-center md:rounded-xl rounded-lg lg:w-[450px]  md:text-xl text-md w-60 text-[#F8D958]'>Download Brochure</button>
+        </div>
+        </>
     )
 }
 
