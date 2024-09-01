@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar  () {
   return (
-    <div className='flex z-40 items-center justify-between md:px-10 px-5 mx-auto sticky top-0 right-0 left-0 bg-white p-5'>
+    <div className='flex z-40 items-center justify-between md:px-20 px-5 mx-auto sticky top-0 right-0 left-0 bg-white p-5'>
       <img src="./logo.png" alt='logo' className='md:w-14 md:h-14 w-10 h-10'/>
       <div className='flex items-center md:gap-5 gap-2'>
         <button className='border-2 border-[#0B2642] md:rounded-xl rounded-full md:p-3 p-2 md:w-44 w-28 md:text-lg text-[10px] text-center text-[#0B2642] font-bold'>Request Callback</button>

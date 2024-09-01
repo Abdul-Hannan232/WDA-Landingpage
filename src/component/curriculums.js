@@ -1,8 +1,8 @@
 
 export default function Curriculums() {
   return (
-    <div className="md:mt-60 mt-20 mb-32">
-      <h1 className="md:text-6xl text-3xl font-semibold text-[#091A2D] text-center">Coding  Masterclass </h1>
+    <div className="md:mt-32 mt-20 mb-32">
+      <h1 className="md:text-6xl text-3xl font-light manrope text-[#091A2D] text-center">Coding  Masterclass </h1>
       <h1 className="md:text-6xl text-3xl font-bold text-center text-[#F8D958] font-light dancing-script mt-1">Curriculum</h1>
       <p className="text-[#091A2D] leading-snug md:text-xl text-[15px] md:px-0 px-8 mt-5 text-center">Whether you’re new to coding or looking to enhance your skills, this<br /> session is perfect for you. Here’s what you can expect:</p>
 
@@ -11,7 +11,7 @@ export default function Curriculums() {
           <div className="bg-[#091A2D] p-6 md:float-left md:absolute md:top-0 md:left-0 rounded-full mx-auto w-28">
             <img src="./rocket.png" alt="rocket" />
           </div>
-          <div className="text-center md:mt-0  mt-5">
+          <div className="text-center   mt-5">
             <h1 className="text-[#081828] font-semibold md:text-3xl text-2xl italic"> Module 01 : Kick start your journey</h1>
             <p className="text-[#081828] md:text-xl text-md font-light mt-2">Get the right orientation, and direction of where you want to go.</p>
           </div>

@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 @layer {
   .bg{
     background: radial-gradient(85.07% 167.25% at 92.53% 11.1%, #0C2949 0%, #07111C 50%, #051425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
@@ -12,7 +18,8 @@
     width: 0;
     height: 0;
   }
-
+ 
+  
   .anton-regular {
     font-family: "Anton", sans-serif;
     font-weight: 400;

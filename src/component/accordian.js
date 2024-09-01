@@ -11,8 +11,8 @@ export default function Accordian() {
 
     return (
         <>
-        <div className='md:w-[50%] md:ml-10 mx-5'>
-            <h1 className='text-[#091A2D] md:text-6xl text-3xl fontlight my-20'>Commonly Asked<br /> Questions</h1>
+        <div className='md:w-[50%] md:ml-20 mx-5'>
+            <h1 className='text-[#091A2D] manrope md:text-6xl text-3xl fontlight my-20'>Commonly Asked<br /> Questions</h1>
         
         
             <Accordion>
@@ -44,24 +44,19 @@ export default function Accordian() {
          
         </div>
         <div className='flex  justify-center gap-4 mt-20'>
-                <button className='border  md:block hidden border-[#0B2642] rounded-xl md:p-3 p-2 md:w-80 w-28 md:text-lg text-xs text-center text-[#0B2642] font-bold'>Request a Callback</button>
-                <button className='bg-[#0B2642] md:p-3 p-2 md:block hidden text-center md:rounded-xl rounded-lg md:w-96 w-40 md:text-lg text-lg text-[#F8D958]'>Book Free Webinar</button>
+                <button className='border  md:block hidden border-[#0B2642] rounded-xl md:p-3 p-2 md:w-80 w-28 md:text-lg text-xs text-center text-[#0B2642] font-bold'>Join Discord</button>
+                <button className='bg-[#0B2642] md:p-3 p-2 md:block hidden text-center md:rounded-xl rounded-lg md:w-96 w-40 md:text-lg text-lg text-[#F8D958]'>Book a Free Masterclass</button>
             </div>
         </>
     )
 }
 
 const accordionData = [
-    { title: 'What is Coding Masterclass?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'What is the refund period?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'What are the prerequisites before applying?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'What is the Duration of the Masterclass?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'How good is the placement record?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'How will I benefit from Industry Mentors?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'How do I get my doubts resolved?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'Do I need a computer science degree to apply?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'Where will the classes be conducted?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'What are the Masterclass timings?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'How many expert sessions will I have?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
-    { title: 'Do we provide Job guarantee?', content: 'Get a solid foundation in coding basics and explore different programming languages.' },
+    { title: 'When is this Live Workshop?', content: 'The javascript live workshop will be started from August 19th, Monday.' },
+    { title: 'Is This a Live BootCamp?', content: 'Yes , this is a completely live bootcamp' },
+    { title: 'What is the timing for this live workshop?', content: 'Workshop will be conducted at 8pm CST' },
+    { title: 'Will i have lifetime access to the recordings & study material?', content: 'YES!' },
+    { title: 'Is this a certified bootcamp?', content: 'Yes!  it is a certified bootcamp. You will be certified by  webdevarmy' },
+    { title: 'Will i get recordings  of the live lectures?', content: 'Yes, you will recording of all the live lectures as well.' },
+    { title: 'I made the payment but did not  receive any update !!', content: 'React out to our  awesome support team.  We  would love to help you out | Email : support@webdevarmy.in' },
 ];

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Team() {
     return (
         <div className='md:mx-0 mx-5'>
-            <h1 className='text-[#0C2949] font-bold text-5xl  py-20 text-center'>Meet our team</h1>
+            <h1 className='text-[#0C2949] font-bold md:text-5xl text-3xl  py-20 text-center'>Meet our team</h1>
             <div className='flex flex-wrap items-center justify-center gap-10'>
                 <div className={`teamBg w-80 relative top-0 md:mt-0 mt-10  rounded-[30px] p-6 text-center`}>
                     <img src="./student2.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />

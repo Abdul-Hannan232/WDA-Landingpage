@@ -2,14 +2,15 @@ import React from 'react'
 
 export default function Students({title,color,textColor,boxbg,text}) {
     return (
-        <div className={`md:py-32 py-20 ${color}`}>
-            <h1 className={`md:text-5xl text-xl ${textColor} anton-regular text-center`}>{title}</h1>
-            <div className='flex flex-wrap justify-center items-center gap-10 md:mt-40 mt-20'>
+        <div className={`md:py-28 py-20 ${color}`}>
+            <h1 className={`md:text-5xl text-xl w-[700px] mx-auto ${textColor} anton-regular text-center`}>{title}</h1>
+            <div className='flex flex-wrap justify-center items-center gap-10 md:mt-20 mt-20'>
 
-                <div className={`${boxbg} w-72 relative top-0 h-80 rounded-[30px] p-6 text-center`}>
+                <div className={`${boxbg} w-72 relative top-0 h-80 md:mt-0 mt-10 rounded-[30px] p-6 text-center`}>
                     <img src="./student1.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
-                    <h1 className={`italic text-2xl mt-20 ${text} font-bold  `}>Noah North</h1>
-                    <div className='flex items-center gap-2 mt-2 justify-center '>
+                    <h1 className={`italic text-2xl mt-20 ${text} font-bold  `}>Francisco Gil
+                    </h1>
+                    <div className='flex items-center gap-1 mt-2 justify-center '>
                         <img src='./star.png' alt="star" />
                         <img src='./star.png' alt="star" />
                         <img src='./star.png' alt="star" />
@@ -17,12 +18,14 @@ export default function Students({title,color,textColor,boxbg,text}) {
                         <img src='./star.png' alt="star" />
 
                     </div>
-                    <p className={  `text-center text-md mt-5 ${text} italic`}>"I think the way that the teacher instructs the students is very entertaining and helpful."</p>
+                    <p className={  `text-center text-xs mt-5 ${text} italic`}>I was working in an electronics hardware company and I am planning to shift to front-end development. This course taken by WebDevArmy is the best decision I took. He is teaching it step by step and It is easily understood. Thank you WebDevArmy
+                    </p>
                 </div>
-                <div className={`${boxbg} lg:w-80 w-72 relative top-0 lg:h-96 h-80 rounded-[30px] p-6 text-center`}>
+                <div className={`${boxbg} lg:w-80 w-72 relative top-0 md:mt-0 mt-10 lg:h-96 h-80 rounded-[30px] p-6 text-center`}>
                     <img src="./student2.png" alt='student1' className='rounded-full  w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
-                    <h1 className={`italic lg:text-3xl text-2xl mt-24 ${text}  `}>Josh Flint</h1>
-                    <div className='flex items-center gap-2 mt-2 justify-center '>
+                    <h1 className={`italic lg:text-3xl text-2xl mt-24 ${text}  `}>Sada
+                    </h1>
+                    <div className='flex items-center gap-1 mt-2 justify-center '>
                         <img src='./star.png' alt="star" />
                         <img src='./star.png' alt="star" />
                         <img src='./star.png' alt="star" />
@@ -30,12 +33,14 @@ export default function Students({title,color,textColor,boxbg,text}) {
                         <img src='./star.png' alt="star" />
 
                     </div>
-                    <p className={` text-center lg:text-lg text-md mt-5 ${text} italic`}>During the class what went well was the way that the teacher taught me, it was very fun and interactive.</p>
+                    <p className={` text-center lg:text-sn text-sm mt-5 ${text} italic`}>Hello sir, Finally i got the selected in the internship that you mentored me earlier for. I got the joining letter today itself. Thank you so much for guiding me through it and the projects.
+                    </p>
                 </div>
-                <div className={`${boxbg} w-72 relative top-0 h-80 rounded-[30px] p-6 text-center`}>
+                <div className={`${boxbg} w-72 relative top-0 h-80 md:mt-0 mt-10 rounded-[30px] p-6 text-center`}>
                     <img src="./student3.png" alt='student1' className='rounded-full  w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
-                    <h1 className={`italic text-2xl mt-20  ${text}  `}>Josh Flint</h1>
-                    <div className='flex items-center gap-2 mt-2 justify-center '>
+                    <h1 className={`italic text-2xl mt-20  ${text}  `}>Mehdi Pakdel
+                    </h1>
+                    <div className='flex items-center gap-1 mt-2 justify-center '>
                         <img src='./star.png' alt="star" />
                         <img src='./star.png' alt="star" />
                         <img src='./star.png' alt="star" />
@@ -43,7 +48,8 @@ export default function Students({title,color,textColor,boxbg,text}) {
                         <img src='./star.png' alt="star" />
 
                     </div>
-                    <p className={` text-center text-md mt-5  ${text} italic`}>"I think the way that the teacher instructs the students is very entertaining and helpful."</p>
+                    <p className={` text-center text-xs mt-5  ${text} italic`}>I attended your 6 Months Live Frontend Workshop and it literally changed my life.I was a non-tech person working in manufacturing sector, now working in a tech company. All thanks to the cohort and guidance. Thank you so much
+                    </p>
                 </div>
             </div>
 
