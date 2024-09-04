@@ -12,10 +12,10 @@ export default function Contact() {
 
                     </h1>
 
-                    <p className="my-5 md:text-2xl text-xs md:text-start text-center font-semibold text-white ">Know in-depth details in our free webinar 👉🏼</p>
+                    <p className="my-5 md:text-2xl text-xs md:text-start text-center Aileron  text-white ">Know in-depth details in our free webinar 👉🏼</p>
                 </div>
                 <div className="bg-[#D9D9D9] rounded-xl md:w-[40%] md:p-5 p-3">
-                    <p className="text-black  md:text-2xl text-xl md:text-center text-start md:my-5 my-3">Book a free live webinar to know more</p>
+                    <p className="text-black  md:text-xl text-xl md:text-center  Aileron   text-start md:my-5 my-3">Book a free live webinar to know more</p>
 
                     <input type="text" placeholder="Full Name" className="bg-white md:py-4 py-3   md:px-6 px-3 w-full md:rounded-xl rounded-2xl outline-none" />
                     <input type="text" placeholder="Email" className="bg-white md:py-4 py-3  md:my-3 my-2  md:px-6 px-3 w-full md:rounded-xl rounded-2xl outline-none" />
@@ -24,20 +24,20 @@ export default function Contact() {
                         <p className="text-[#4D4E4F80] md:text-lg text-md  ">Experience</p>
                         <div className="flex mt-5 items-center gap-3">
                             <input type="radio" />
-                            <p className="md:text-md text-xs">Working Professional - Technical Roles</p>
+                            <p className="md:text-md Aileron  text-xs">Working Professional - Technical Roles</p>
                         </div>
                         <div className="flex mt-3 items-center gap-3">
                             <input type="radio" />
-                            <p className="md:text-md text-xs">Working Professional - Non Technical</p>
+                            <p className="md:text-md  Aileron text-xs">Working Professional - Non Technical</p>
                         </div>  <div className="flex mt-3 items-center gap-3">
                             <input type="radio" />
-                            <p className="md:text-md text-xs">College Student - Final Year</p>
+                            <p className="md:text-md Aileron  text-xs">College Student - Final Year</p>
                         </div>  <div className="flex mt-3 items-center gap-3">
                             <input type="radio" />
-                            <p className="md:text-md text-xs">College Student - 1st to Pre-final Year</p>
+                            <p className="md:text-md  Aileron text-xs">College Student - 1st to Pre-final Year</p>
                         </div>  <div className="flex mt-3 items-center gap-3">
                             <input type="radio" />
-                            <p className="md:text-md text-xs">Other</p>
+                            <p className="md:text-md Aileron  text-xs">Other</p>
                         </div>
                     </div>
                     <button className='bg-[#0B2642] p-3 text-center rounded-xl  md:text-2xl text-md font-semibold w-full mt-3  text-[#F8D958]'>Book Webinar</button>

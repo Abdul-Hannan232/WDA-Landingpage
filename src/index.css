@@ -3,12 +3,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.Aileron{
+  font-family: 'Aileron', sans-serif;
+}
+.Aileron-bold{
+  font-family: 'Aileron-bold', sans-serif;
+}
+.Aileron-italic{
+  font-family: 'Aileron-italic', sans-serif;
+}
+@font-face {
+  font-family: 'Aileron';
+  src: url('./assets/fonts/aileron/Aileron-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aileron-bold';
+  src: url('./assets/fonts/aileron/Aileron-Heavy.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aileron-italic';
+  src: url('./assets/fonts/aileron/Aileron-LightItalic.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/fonts/Poppins/Poppins-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: 'poppins', sans-serif;
+}
+
 .manrope {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 500;
 }
+
 @layer {
   .bg{
     background: radial-gradient(85.07% 167.25% at 92.53% 11.1%, #0C2949 0%, #07111C 50%, #051425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;

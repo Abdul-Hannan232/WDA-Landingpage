@@ -22,7 +22,7 @@ export default function Accordian() {
                         key={index}
                         aria-label={`Accordion ${index + 1} accordion-item-icon`}
                         title={
-                            <div className='flex justify-between md:w-[600px] text-[#091A2D] font-semibold md:text-xl text-md items-center'>
+                            <div className='flex Aileron justify-between md:w-[600px] text-[#091A2D] font-semibold md:text-xl text-md items-center'>
                                 {item.title}
                                 {activeIndex === index ? (
                                     <FaAngleUp />
@@ -36,7 +36,7 @@ export default function Accordian() {
                         icon={null}  // Ensure no default icon is shown
                         className="no-icon" // Add this class to remove any leftover spacing
                     >
-                        <p className='text-[#091A2D] md:text-lg text-sm'>{item.content}</p>
+                        <p className='text-[#091A2D] md:text-lg Aileron text-sm'>{item.content}</p>
                     </AccordionItem>
                 ))}
             </Accordion>
