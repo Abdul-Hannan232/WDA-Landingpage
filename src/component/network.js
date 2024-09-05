@@ -8,7 +8,7 @@ export default function Network () {
                 <h1 className='md:text-6xl text-3xl italic font-semibold text-[#F8D958] etna'>Opportunities</h1>
                 <p className='md:w-[550px] md:text-2xl text-sm font-light tex-center Aileron md:mx-auto mx-5 mt-5 text-white'>Learn about the current job market, potential career paths in tech, and how coding can open up new opportunities for you.</p>
             </div>
-            <img src='./network.png' alt="network"/>
+            <img src='./network.png' alt="network " className='w-full'/>
     </div>
   )
 }

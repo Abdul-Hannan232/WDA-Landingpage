@@ -14,11 +14,11 @@ export default function App() {
     <div>
       <Navbar />
       <Header />
-      <Students title={"STUDENTS WHO TOOK OUR BOOTCAMP AND GOT HIRED"} color={"bg-white"} textColor={"text-[#091A2D]"} boxbg={"bg-[#0B2642]"} text={"text-white"} />
+      <Students title={"STUDENTS WHO TOOK OUR BOOTCAMP AND GOT HIRED"} font={"anton-regular"} color={"bg-white"} textColor={"text-[#091A2D]"} boxbg={"bg-[#0B2642]"} text={"text-white"} />
       <Curriculum />
       <Benefits />
       <CodingBenefits />
-      <Students title={"VOICE OF TRUST AND LOVE"} color={"bg"} textColor={"text-white"} boxbg={"bg-white"} text={"text-[#091A2D]"} />
+      <Students title={"VOICE OF TRUST AND LOVE"} font={"Aileron-bold"} color={"bg"} textColor={"text-white"} boxbg={"bg-white"} text={"text-[#091A2D]"} />
       {/* <Team /> */}
       <Experience/>
       <Network />

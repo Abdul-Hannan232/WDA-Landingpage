@@ -1,14 +1,13 @@
 import React from 'react'
 
-export default function Students({ title, color, textColor, boxbg, text }) {
+export default function Students({ title, color, textColor, boxbg, text ,font}) {
     return (
         <div className={`pd:py-28 bg-[#F6F4F4] py-20 ${color}`}>
-            <h1 className={`md:text-5xl text-xl md:w-[700px] w-[250px] font-extrabold mx-auto ${textColor} Aileron-bold
- text-center`}>{title}</h1>
+            <h1 className={`md:text-5xl text-xl md:w-[700px] w-[250px] font-extrabold mx-auto ${textColor} ${font} text-center`}>{title}</h1>
             <div className='flex flex-wrap justify-center items-center gap-10 md:mt-20 mt-5'>
 
                 <div className={`${boxbg} w-72 relative top-0 h-80 md:mt-0 mt-10 rounded-[30px] p-6 text-center`}>
-                    <img src="./student1.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
+                    <img src="./student1.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 border-4 border-white rounded-full absolute h-32' />
                     <h1 className={`Aileron text-xl mt-20 ${text} font-light  `}>Francisco Gil
                     </h1>
                     <div className='flex items-center gap-1 mt-2 justify-center '>

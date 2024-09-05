@@ -12,27 +12,27 @@ export default function CodingBenefits() {
                         {/* <div className='bg-[#0B2642] w-12 h-12 rounded-full'></div> */}
                         <img src='./user1.png' alti="con1" className='w-12 h-12' />
                         <h1 className='text-white md:text-4xl text-md manrope font-bold'>1:1 expert session</h1>
-                        <p className='text-[#CBCBCB] md:text-xl Aileron text-sm lg:w-60 '>Connects theoretical understanding with practical implementation through their insights                    </p>
+                        <p className='text-[#CBCBCB] 2xl:text-xl md:text-sm Aileron text-sm lg:w-60 '>Connects theoretical understanding with practical implementation through their insights                    </p>
                     </div>
                     <div className='md:space-y-3 background space-y-1 lg:p-10 p-6 lg:w-[35%] lg:h-80 shadow-xl rounded-[30px]'>
                         {/* <div className='bg-[#0B2642] w-12 h-12 rounded-full'></div> */}
                         <img src='./user2.png' alti="con1" className='w-12 h-12' />
                         <h1 className='text-white md:text-4xl text-md manrope font-bold'>Expert faculty</h1>
-                        <p className='text-[#CBCBCB] md:text-lg text-sm lg:w-60 Aileron'>Connects theoretical understanding with practical implementation through their insights
+                        <p className='text-[#CBCBCB] 2xl:text-lg md:text-sm text-sm lg:w-60 Aileron'>Connects theoretical understanding with practical implementation through their insights
                         </p>
                     </div>
                     <div className='md:space-y-3 background space-y-1 lg:p-10 p-6 lg:w-[31%] lg:h-80 shadow-xl rounded-[30px]'>
                         {/* <div className='bg-[#0B2642] w-12 h-12 rounded-full'></div> */}
                         <img src='./user3.png' alti="con1" className='w-14 h-12' />
                         <h1 className='text-white md:text-3xl text-md  manrope font-bold'>Projects & hackathons</h1>
-                        <p className='text-[#CBCBCB] md:text-xl text-sm lg:w-60 Aileron'>Hands-on learning to spark creative problem-solving
+                        <p className='text-[#CBCBCB] 2xl:text-xl md:text-sm text-sm lg:w-60 Aileron'>Hands-on learning to spark creative problem-solving
                         </p>
                     </div>
                     <div className='md:space-y-3 background space-y-1 lg:p-10 p-6 lg:w-[31%] lg:h-80 shadow-xl rounded-[30px]'>
                         {/* <div className='bg-[#0B2642] w-12 h-12 rounded-full'></div> */}
                         <img src='./user5.png' alti="con1" className='w-12 h-12' />
                         <h1 className='text-white md:text-3xl text-md manrope font-bold'>Fastest doubt support</h1>
-                        <p className='text-[#CBCBCB] md:text-xl text-sm lg:w-60 Aileron'>Personalised live assistance for a clear understanding of concepts
+                        <p className='text-[#CBCBCB] 2xl:text-xl md:text-sm text-sm lg:w-60 Aileron'>Personalised live assistance for a clear understanding of concepts
                         </p>
                     </div>
                     <div className='md:space-y-3 background space-y-1 lg:p-10 p-6 lg:w-[31%] lg:h-80 shadow-xl rounded-[30px]'>
@@ -40,7 +40,7 @@ export default function CodingBenefits() {
                         <img src='./user2.png' alti="con1" className='w-12 h-12' />
                         <h1 className='text-white md:text-3xl text-md manrope font-bold'>Live-Interactive classes
                         </h1>
-                        <p className='text-[#CBCBCB] md:text-lg text-sm lg:w-60 Aileron'>Learn in real-time with interactive sessions, hands-on practice, and instant feedback
+                        <p className='text-[#CBCBCB] 2xl:text-lg md:text-sm text-sm lg:w-60 Aileron'>Learn in real-time with interactive sessions, hands-on practice, and instant feedback
                         </p>
                     </div>
 

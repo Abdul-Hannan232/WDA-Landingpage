@@ -20,25 +20,25 @@ export default function Benefits() {
                 <img src='./icon2.png' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
                 <h1 className='text-[#091A2D] md:text-xl text-sm Aileron-bold'>Live Classes
                 </h1>
-                    <p className='text-[#636363] md:text-sm Aileron text-[8px] font-light'>Get access to an abundance of <br />job openings every month.</p>
+                    <p className='text-[#636363] md:text-sm Aileron text-[8px] font-light'>Get access to an abundance of job openings every month.</p>
                 </div>
-                <div className='md:space-y-3 space-y-1 md:w-80'>
+                <div className='md:space-y-3 space-y-1 md:w-96'>
                 <img src='./icon3.png' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
                     <h1 className='text-[#091A2D] md:text-xl text-sm Aileron-bold'>Structured Notes & Study Material
                     </h1>
-                    <p className='text-[#636363] md:text-sm  Aileron text-[8px] font-light'>Complete the course faster and <br />apply for job opportunities</p>
+                    <p className='text-[#636363] md:text-sm  Aileron text-[8px] font-light'>Complete the course faster and apply for job opportunities</p>
                 </div>
                 <div className='md:space-y-3 space-y-1 md:w-80'>
                 <img src='./icon4.png' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
                 <h1 className='text-[#091A2D] md:text-xl text-sm Aileron-bold'>Quick Cheatsheets
                 </h1>
-                    <p className='text-[#636363] md:text-sm Aileron text-[8px] font-light'>Guiding and motivating you <br />every step of the way.</p>
+                    <p className='text-[#636363] md:text-sm Aileron text-[8px] font-light'>Guiding and motivating you every step of the way.</p>
                 </div>
                 <div className='md:space-y-3 space-y-1 md:w-80'>
                 <img src='./icon5.png' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
                 <h1 className='text-[#091A2D] md:text-xl text-sm Aileron-bold'>Portfolio Building
                 </h1>
-                    <p className='text-[#636363] md:text-sm text-[8px] Aileron font-light'>A dedicated team to help you get <br />placed in your dream company.</p>
+                    <p className='text-[#636363] md:text-sm text-[8px] Aileron font-light'>A dedicated team to help you get placed in your dream company.</p>
                 </div>
                 <div className='md:space-y-3 space-y-1 md:w-80'>
                 <img src='./icon6.png' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
