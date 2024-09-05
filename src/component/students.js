@@ -1,14 +1,15 @@
 import React from 'react'
 
-export default function Students({title,color,textColor,boxbg,text}) {
+export default function Students({ title, color, textColor, boxbg, text }) {
     return (
-        <div className={`md:py-28 py-20 ${color}`}>
-            <h1 className={`md:text-5xl text-xl w-[700px] mx-auto ${textColor} anton-regular text-center`}>{title}</h1>
-            <div className='flex flex-wrap justify-center items-center gap-10 md:mt-20 mt-20'>
+        <div className={`pd:py-28 bg-[#F6F4F4] py-20 ${color}`}>
+            <h1 className={`md:text-5xl text-xl md:w-[700px] w-[250px] font-extrabold mx-auto ${textColor} Aileron-bold
+ text-center`}>{title}</h1>
+            <div className='flex flex-wrap justify-center items-center gap-10 md:mt-20 mt-5'>
 
                 <div className={`${boxbg} w-72 relative top-0 h-80 md:mt-0 mt-10 rounded-[30px] p-6 text-center`}>
                     <img src="./student1.png" alt='student1' className='rounded-full w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
-                    <h1 className={`Aileron-italic text-xl mt-20 ${text} font-light  `}>Francisco Gil
+                    <h1 className={`Aileron text-xl mt-20 ${text} font-light  `}>Francisco Gil
                     </h1>
                     <div className='flex items-center gap-1 mt-2 justify-center '>
                         <img src='./star.png' alt="star" />
@@ -18,12 +19,12 @@ export default function Students({title,color,textColor,boxbg,text}) {
                         <img src='./star.png' alt="star" />
 
                     </div>
-                    <p className={  `text-center font-light text-sm mt-3 ${text} Aileron-italic`}>I was working in an electronics hardware company and I am planning to shift to front-end development. This course taken by WebDevArmy is the best decision I took. He is teaching it step by step and It is easily understood. Thank you WebDevArmy
+                    <p className={`text-center font-light text-sm mt-3 ${text} Aileron-italic`}>I was working in an electronics hardware company and I am planning to shift to front-end development. This course taken by WebDevArmy is the best decision I took. He is teaching it step by step and It is easily understood. Thank you WebDevArmy
                     </p>
                 </div>
                 <div className={`${boxbg} lg:w-80 w-72 relative top-0 md:mt-0 mt-10 lg:h-96 h-80 rounded-[30px] p-6 text-center`}>
                     <img src="./student2.png" alt='student1' className='rounded-full  w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
-                    <h1 className={`Aileron-italic lg:text-3xl text-2xl mt-24 ${text}  `}>Sada
+                    <h1 className={`Aileron lg:text-2xl text-2xl mt-24 ${text}  `}>Sada
                     </h1>
                     <div className='flex items-center gap-1 mt-2 justify-center '>
                         <img src='./star.png' alt="star" />
@@ -38,7 +39,7 @@ export default function Students({title,color,textColor,boxbg,text}) {
                 </div>
                 <div className={`${boxbg} w-72 relative top-0 h-80 md:mt-0 mt-10 rounded-[30px] p-6 text-center`}>
                     <img src="./student3.png" alt='student1' className='rounded-full  w-32 mx-auto top-[-40px] right-0 left-0 absolute h-32' />
-                    <h1 className={`Aileron-italic text-xl mt-20  ${text}  `}>Mehdi Pakdel
+                    <h1 className={`Aileron text-xl mt-20  ${text}  `}>Mehdi Pakdel
                     </h1>
                     <div className='flex items-center gap-1 mt-2 justify-center '>
                         <img src='./star.png' alt="star" />

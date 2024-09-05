@@ -36,6 +36,15 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'etna';
+  src: url('./assets/fonts/EtnaFont/fonnts.com-Etna-Semibold-.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.etna {
+  font-family: 'etna', sans-serif;
+}
 
 .poppins {
   font-family: 'poppins', sans-serif;

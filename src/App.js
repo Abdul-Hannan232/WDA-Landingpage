@@ -19,7 +19,7 @@ export default function App() {
       <Benefits />
       <CodingBenefits />
       <Students title={"VOICE OF TRUST AND LOVE"} color={"bg"} textColor={"text-white"} boxbg={"bg-white"} text={"text-[#091A2D]"} />
-      <Team />
+      {/* <Team /> */}
       <Experience/>
       <Network />
       <Contact />

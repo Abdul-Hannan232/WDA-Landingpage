@@ -5,7 +5,7 @@ export default function CodingBenefits() {
         <>
             <div className='bg py-20'>
                 <h1 className="md:text-6xl manrope text-3xl font-light text-white text-center">Coding  Masterclass </h1>
-                <h1 className="md:text-6xl text-3xl font-bold italic text-center text-[#F8D958] font-light dancing-script mt-1">Benefits</h1>
+                <h1 className="md:text-6xl text-3xl font-bold italic text-center text-[#F8D958] font-light etna mt-3">Benefits</h1>
 
                 <div className='md:w-[87%] flex items-center gap-5 lg:mt-40 mt-20 flex-wrap md:mx-auto mx-5'>
                     <div className='md:space-y-3 background space-y-1 lg:p-10 p-6 lg:w-[60%] lg:h-80 shadow-xl rounded-[30px]'>
@@ -47,9 +47,9 @@ export default function CodingBenefits() {
                 </div>
             </div>
             {/* benefit learning */}
-            <div className='bg py-20'>
+            <div className='bg py-20 '>
                 <h1 className="md:text-6xl text-3xl font-light text-white text-center">Benefit beyond  </h1>
-                <h1 className="md:text-6xl text-3xl font-bold italic text-center text-[#F8D958] font-light dancing-script mt-1">Learning</h1>
+                <h1 className="md:text-6xl text-3xl  italic text-center text-[#F8D958] font-light etna mt-1">Learning</h1>
 
                 <div className='md:w-[87%] flex items-center md:justify-start justify-center gap-5 lg:mt-40 mt-20 flex-wrap md:mx-auto mx-5'>
 

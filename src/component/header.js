@@ -20,26 +20,26 @@ export default function Header() {
                         </button>
                     </div>
                     <div className="bg-[#D9D9D942] rounded-3xl  flex items-center flex-wrap justify-evenly mt-5 gap-3 lg:p-7 md:p-5 p-5 text-white">
-                        <div className="text-center pr-3 border border-white border-y-transparent border-l-transparent">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-3xl font-bold">$120k+
+                        <div className="text-center pr-3 border md:ml-0 ml-3 border-white border-y-transparent border-l-transparent">
+                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-2xl font-bold">$120k+
                             </h1>
                             <p className="md:text-sm Aileron text-sm font-light mt-2">Avg. Salary
                             </p>
                         </div>
                         <div className="text-center  lg:pr-3 lg:border lg:border-white lg:border-y-transparent lg:border-l-transparent">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-3xl font-bold">2200+
+                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-2xl font-bold">2200+
                             </h1>
                             <p className="md:text-sm  Aileron text-sm font-light mt-2">Students Trained
                             </p>
                         </div>
                         <div className="text-center  pr-3 border border-white border-y-transparent border-l-transparent">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-3xl font-bold">6 Months
+                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl md:ml-0 -ml-4 text-2xl font-bold">6 Months
                             </h1>
                             <p className="md:text-sm Aileron text-sm font-light mt-2">Training Period
                             </p>
                         </div>
                         <div className="text-center ">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-3xl font-bold">100k+
+                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-2xl font-bold">100k+
                             </h1>
                             <p className="md:text-sm Aileron text-sm font-light mt-2">Followers
                             </p>

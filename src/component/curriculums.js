@@ -1,7 +1,7 @@
 
 export default function Curriculums() {
   return (
-    <div className="md:mt-32 mt-20 mb-32">
+    <div className="md:pt-32 bg-[#F6F4F4] pt-5 pb-32">
       <h1 className="md:text-6xl text-3xl font-light manrope text-[#091A2D] text-center">Coding  Masterclass </h1>
       <h1 className="md:text-6xl text-3xl  text-center text-[#F8D958] font-light etna mt-1">Curriculum</h1>
       <p className="text-[#091A2D] Aileron md:text-xl text-[15px] md:px-0 px-8 mt-5 text-center">Whether you’re new to coding or looking to enhance your skills, this<br /> session is perfect for you. Here’s what you can expect:</p>
@@ -12,7 +12,7 @@ export default function Curriculums() {
             <img src="./rocket.png" alt="rocket" />
           </div>
           <div className="text-center   mt-5">
-            <h1 className="text-[#081828] font-light md:text-3xl poppins text-2xl "> Module 01 : Kick start your journey</h1>
+            <h1 className="text-[#081828] font-light md:text-3xl poppins text-xl "> Module 01 : Kick start your journey</h1>
             <p className="text-[#081828] md:text-xl text-md Aileron font-light mt-2">Get the right orientation, and direction of where you want to go.</p>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function Curriculums() {
             <img src="./embed.png" alt="rocket" />
           </div>
           <div className="text-center md:mt-0 mt-5">
-            <h1 className="text-[#081828]  md:text-3xl text-2xl poppins"> Module 02 : Fundamentals</h1>
+            <h1 className="text-[#081828]  md:text-3xl text-xl poppins"> Module 02 : Fundamentals</h1>
             <p className="text-[#081828] md:text-xl text-md Aileron font-light mt-2">Understand the fundamentals of computer science</p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function Curriculums() {
             <img src="./systems.png" alt="rocket" />
           </div>
           <div className="text-center md:mt-0 mt-5">
-            <h1 className="text-[#081828]  md:text-3xl text-2xl poppins"> Module 03 : System Design</h1>
+            <h1 className="text-[#081828]  md:text-3xl text-xl poppins"> Module 03 : System Design</h1>
             <p className="text-[#081828] md:text-xl Aileron text-md font-light mt-2">Get the right orientation, and direction of where you want to go..</p>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Curriculums() {
             <img src="./box.png" alt="rocket" />
           </div>
           <div className="text-center md:mt-0 mt-5">
-            <h1 className="text-[#081828]  md:text-3xl text-2xl poppins"> Module 04 : Full Stack Specialization</h1>
+            <h1 className="text-[#081828]  md:text-3xl text-xl poppins"> Module 04 : Full Stack Specialization</h1>
             <p className="text-[#081828] md:text-xl Aileron text-md font-light mt-2">Get the right orientation, and direction of where you want to go..</p>
           </div>
         </div>
