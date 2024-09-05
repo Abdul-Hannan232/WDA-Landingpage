@@ -8,7 +8,7 @@ export default function Curriculums() {
 
       <div className="lg:w-[70%] lg:ml-72 md:relative  md:mx-auto mx-10">
         <div className="md:flex items-center md:mt-20 mt-10 justify-center gap-10">
-          <div className="bg-[#091A2D] p-6 md:float-left md:absolute md:top-0 md:left-0 rounded-full mx-auto w-28">
+          <div className="bg-[#091A2D] p-6 md:float-left md:absolute md:top-0 md:left-0 rounded-full h-28 flex flex-col justify-center items-center  mx-auto w-28">
             <img src="./rocket.png" alt="rocket" />
           </div>
           <div className="text-center   mt-5">
@@ -26,7 +26,7 @@ export default function Curriculums() {
           </div>
         </div>
         <div className="md:flex items-center mt-20 justify-center gap-10">
-          <div className="bg-[#091A2D] p-6 rounded-full md:absolute md:left-0 mx-auto w-28">
+          <div className="bg-[#091A2D] p-6 rounded-full md:absolute h-28 flex flex-col justify-center items-center  md:left-0 mx-auto w-28">
             <img src="./systems.png" alt="rocket" />
           </div>
           <div className="text-center md:mt-0 mt-5">
@@ -35,7 +35,7 @@ export default function Curriculums() {
           </div>
         </div>
         <div className="md:flex items-center mt-20 justify-center gap-10">
-          <div className="bg-[#091A2D] p-6 md:absolute md:left-0 rounded-full mx-auto h-28 w-28">
+          <div className="bg-[#091A2D] p-6 md:absolute md:left-0 h-28 flex flex-col justify-center items-center  rounded-full mx-auto h-28 w-28">
             <img src="./box.png" alt="rocket" />
           </div>
           <div className="text-center md:mt-0 mt-5">
@@ -44,8 +44,8 @@ export default function Curriculums() {
           </div>
         </div>
         <div className="md:flex items-center mt-20 justify-center gap-10">
-          <div className="bg-[#091A2D] p-6 md:absolute md:left-0 rounded-full mx-auto w-28">
-            <img src="./bijli.png" alt="rocket" className="h-16 mx-auto" />
+          <div className="bg-[#091A2D] p-6 md:absolute md:left-0 h-28 flex flex-col justify-center items-center  rounded-full mx-auto w-28">
+            <img src="./bijli.png" alt="rocket" className="h-12 mx-auto" />
           </div>
           <div className="text-center md:mt-0 mt-5">
             <h1 className="text-[#081828]  md:text-3xl text-xl poppins"> Module 05 : Get Placed at Top Tech Companies</h1>

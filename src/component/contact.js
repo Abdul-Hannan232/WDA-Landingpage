@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div>
+        <div className='md:block hidden'>
             <div className="w-full md:px-20 md:py-40 p-5 py-20 bg md:flex  justify-between">
                 <div className="md:w-[60%]">
                     <h1 className="text-[#F8D958] lg:text-[90px] md:text-[40px] text-[35px] leading-none tracking-wider md:text-start text-center 	anton-regular ">Have questions?

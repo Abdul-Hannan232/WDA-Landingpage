@@ -19,36 +19,84 @@ export default function Header() {
                         <button className="py-1 md:px-3 px-2  rounded-full md:text-[14px] text-[7px] bg-[#C8CB4C] text-black text-center">Engaging Community
                         </button>
                     </div>
-                    <div className="bg-[#D9D9D942] rounded-3xl  flex items-center flex-wrap justify-evenly mt-5 gap-3 lg:p-7 md:p-5 p-5 text-white">
-                        <div className="text-center pr-3 border md:ml-0 ml-3 border-white border-y-transparent border-l-transparent">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-2xl font-bold">$120k+
-                            </h1>
-                            <p className="md:text-sm Aileron text-sm font-light mt-2">Avg. Salary
-                            </p>
+                    {/* <div className="bg-[#D9D9D942] rounded-3xl  w-[82%]  mx-auto flex items-center  justify-evenly mt-5 gap-3 lg:p-7 md:p-5 p-6 text-white">
+                        <div className="flex items-center gap-5">
+                            <div className="text-center pr-3 border md:ml-0 ml-3 border-white border-y-transparent border-l-transparent">
+                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-lg font-bold">$120k+
+                                </h1>
+                                <p className="md:text-sm Aileron text-[10px] font-light mt-2">Avg. Salary
+                                </p>
+                            </div>
+                            <div className="text-center  lg:pr-3 lg:border lg:border-white lg:border-y-transparent lg:border-l-transparent">
+                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-lg font-bold">2200+
+                                </h1>
+                                <p className="md:text-sm  Aileron text-[10px] font-light mt-2">Students Trained
+                                </p>
+                            </div>
                         </div>
-                        <div className="text-center  lg:pr-3 lg:border lg:border-white lg:border-y-transparent lg:border-l-transparent">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-2xl font-bold">2200+
-                            </h1>
-                            <p className="md:text-sm  Aileron text-sm font-light mt-2">Students Trained
-                            </p>
+                        <div className="flex items-center gap-5">
+                            <div className="text-center  pr-3 border border-white border-y-transparent border-l-transparent">
+                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl md:ml-0 -ml-2 text-lg font-bold">6 Months
+                                </h1>
+                                <p className="md:text-sm Aileron text-[10px] font-light mt-2">Training Period
+                                </p>
+                            </div>
+                            <div className="text-center ">
+                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-lg font-bold">100k+
+                                </h1>
+                                <p className="md:text-sm Aileron text-[10px] font-light mt-2">Followers
+                                </p>
+                            </div>
                         </div>
-                        <div className="text-center  pr-3 border border-white border-y-transparent border-l-transparent">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl md:ml-0 -ml-4 text-2xl font-bold">6 Months
-                            </h1>
-                            <p className="md:text-sm Aileron text-sm font-light mt-2">Training Period
-                            </p>
-                        </div>
-                        <div className="text-center ">
-                            <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-2xl font-bold">100k+
-                            </h1>
-                            <p className="md:text-sm Aileron text-sm font-light mt-2">Followers
-                            </p>
+                    </div> */}
+                    <div className="bg-[#D9D9D942] my-10 text-white rounded-3xl w-[90%] md:mx-0 mx-auto md:p-10 p-7">
+                        <div className="flex items-center flex-wrap justify-center md:gap-8 gap-3">
+                            <div className="text-center flex items-center gap-3 ">
+
+                                <div>
+                                    <h1 className="md:text-2xl text-xl Aileron-bold">$120k+
+                                    </h1>
+                                    <p className="md:text-xs text-[10px]  Aileron">Avg. Salary
+                                    </p>
+                                </div>
+                                <div className="border-white border border-y-transparent border-l-transparent  h-10 w-[1px]"></div>
+                            </div>
+                            <div className="text-center flex items-center gap-3 ">
+
+                                <div>
+                                    <h1 className="md:text-2xl text-xl Aileron-bold">2200+
+                                    </h1>
+                                    <p className="md:text-xs text-[10px]  Aileron">Students Trained
+                                    </p>
+                                </div>
+                                <div className="border-white  md:block hidden border border-y-transparent border-l-transparent  h-10 w-[1px]"></div>
+                            </div>
+                            <div className="text-center md:ml-0 -ml-5 flex items-center gap-3 ">
+
+                                <div>
+                                    <h1 className="md:text-2xl text-xl Aileron-bold">6 Months
+                                    </h1>
+                                    <p className="md:text-xs text-[10px]  Aileron">Training Period
+                                    </p>
+                                </div>
+                                <div className="border-white border border-y-transparent border-l-transparent  h-10 w-[1px]"></div>
+                            </div>
+                            <div className="text-center flex items-center gap-3 ">
+
+                                <div>
+                                    <h1 className="md:text-2xl text-xl Aileron-bold">100k+
+                                    </h1>
+                                    <p className="md:text-xs text-[10px]  Aileron">Followers
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <p className="my-5 md:text-xl Aileron text-xs md:text-start text-center font-light text-white ">Know in-depth details in our free masterclass
                         👉🏼</p>
                 </div>
-                <div className="bg-[#D9D9D9] rounded-xl md:w-[40%] md:p-5 p-3">
+                <div className="bg-[#D9D9D9] rounded-2xl md:w-[40%] md:p-5 p-3">
                     <p className="text-[#070000]  Aileron md:text-2xl text-xl md:text-center text-start md:my-5 my-3">Book a free live webinar to know more</p>
 
                     <input type="text" placeholder="Full Name" className="bg-white md:py-4 py-3   md:px-6 px-3 w-full md:rounded-xl rounded-2xl outline-none" />

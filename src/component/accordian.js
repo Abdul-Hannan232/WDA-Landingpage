@@ -11,7 +11,7 @@ export default function Accordian() {
 
     return (
         <>
-        <div className='md:w-[50%] md:ml-20 mx-5'>
+        <div className='md:w-[50%] md:ml-20  mx-5'>
             <h1 className='text-[#091A2D] manrope md:text-6xl text-3xl fontlight my-20'>Commonly Asked<br /> Questions</h1>
         
         
@@ -43,7 +43,7 @@ export default function Accordian() {
 
          
         </div>
-        <div className='flex  justify-center gap-4 mt-20'>
+        <div className='flex  justify-center gap-4 my-20'>
                 <button className='border  md:block hidden border-[#0B2642] rounded-xl md:p-3 p-2 md:w-80 w-28 md:text-lg text-xs text-center text-[#0B2642] font-bold'>Join Discord</button>
                 <button className='bg-[#0B2642] md:p-3 p-2 md:block hidden text-center md:rounded-xl rounded-lg md:w-96 w-40 md:text-lg text-lg text-[#F8D958]'>Book a Free Masterclass</button>
             </div>
