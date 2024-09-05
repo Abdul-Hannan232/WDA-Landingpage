@@ -19,36 +19,7 @@ export default function Header() {
                         <button className="py-1 md:px-3 px-2  rounded-full md:text-[14px] text-[7px] bg-[#C8CB4C] text-black text-center">Engaging Community
                         </button>
                     </div>
-                    {/* <div className="bg-[#D9D9D942] rounded-3xl  w-[82%]  mx-auto flex items-center  justify-evenly mt-5 gap-3 lg:p-7 md:p-5 p-6 text-white">
-                        <div className="flex items-center gap-5">
-                            <div className="text-center pr-3 border md:ml-0 ml-3 border-white border-y-transparent border-l-transparent">
-                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-lg font-bold">$120k+
-                                </h1>
-                                <p className="md:text-sm Aileron text-[10px] font-light mt-2">Avg. Salary
-                                </p>
-                            </div>
-                            <div className="text-center  lg:pr-3 lg:border lg:border-white lg:border-y-transparent lg:border-l-transparent">
-                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-lg font-bold">2200+
-                                </h1>
-                                <p className="md:text-sm  Aileron text-[10px] font-light mt-2">Students Trained
-                                </p>
-                            </div>
-                        </div>
-                        <div className="flex items-center gap-5">
-                            <div className="text-center  pr-3 border border-white border-y-transparent border-l-transparent">
-                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl md:ml-0 -ml-2 text-lg font-bold">6 Months
-                                </h1>
-                                <p className="md:text-sm Aileron text-[10px] font-light mt-2">Training Period
-                                </p>
-                            </div>
-                            <div className="text-center ">
-                                <h1 className="lg:text-3xl Aileron-bold md:text-4xl text-lg font-bold">100k+
-                                </h1>
-                                <p className="md:text-sm Aileron text-[10px] font-light mt-2">Followers
-                                </p>
-                            </div>
-                        </div>
-                    </div> */}
+             
                     <div className="bg-[#D9D9D942] my-10 text-white rounded-3xl w-[90%] md:mx-0 mx-auto md:p-10 p-7">
                         <div className="flex items-center flex-wrap justify-center md:gap-8 gap-3">
                             <div className="text-center flex items-center gap-3 ">
