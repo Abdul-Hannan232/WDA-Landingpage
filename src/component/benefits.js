@@ -10,7 +10,7 @@ export default function Benefits() {
             <div className='grid lg:grid-cols-3 w-[87%] md:mx-auto grid-cols-2 md:gap-10 gap-5 mx-8 md:mt-32 mt-5'>
                 <div className='md:space-y-3 space-y-1 md:w-80'>
                     {/* <div className='bg-[#0B2642] w-12 h-12 rounded-full'></div> */}
-                    <img src='./icon1.png' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
+                    <img src='./icon1.jpg' alti="con1" className='md:w-12 md:h-12 w-8 h-8' />
                     <h1 className='text-[#091A2D] Aileron-bold md:text-xl text-sm'>Dedicated coach
                     </h1>
                     <p className='text-[#636363] md:text-sm text-[8px] Aileron'>Make a distinct mark for yourself on India's leading job portal.
